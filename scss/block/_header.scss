@@ -1,0 +1,240 @@
+.site-header__top-link {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.site-header__top-link::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../img/header-top-img.svg');
+  width: 14px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 9px;
+}
+
+.site-header__top-link2 {
+  display: flex;
+}
+
+.site-header__top-link-tel1::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../img/header-top-img2.svg');
+  width: 14px;
+  height: 13px;
+  display: inline-block;
+  display: flex;
+  margin-right: 9px;
+}
+.site-header__top-link-tel1{
+  display: flex;
+}
+
+.site-header__top-tel-box {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__top-tel2::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../img/circle.svg');
+  width: 10px;
+  height: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.site-header__top-tel3::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../img/circle.svg');
+  width: 10px;
+  height: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.site-header__top-link-tel {
+  font-family: 'Futura';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.site-header__top-tel+.site-header__top-tel {
+  margin-left: 16px;
+}
+
+.site-header {
+  background-color: #F9F8F8;
+}
+
+.site-header__top-day-link {
+  font-family: 'Futura';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.site-header__top-day-box {
+  display: flex;
+}
+
+.site-header__top-day-link1:before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../../img/calendar.svg');
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 9px;
+
+}
+
+.site-header__top-link3 {
+  display: flex;
+
+}
+
+.site-header__top-box {
+  display: flex;
+  justify-content: end;
+}
+
+.site-header__top-item+.site-header__top-item {
+  margin-left: 98px;
+}
+
+.site-header__top {
+  padding: 11px;
+}
+
+.site-header__logo-link {
+  max-width: 177px;
+  cursor: pointer;
+}
+
+
+
+.site-header__bottom-text {
+  font-family: 'Futura';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.site-header__bottom-text1::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url('../img/fish.svg');
+  width: 20px;
+  height: 22px;
+  display: inline-block;
+  transform: rotate(45deg);
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.site-header__bottom-text2::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url('../img/header-bottom-img.svg');
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  transform: rotate(-15deg);
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.site-header__bottom-text2 {
+  margin-left: 20px;
+}
+
+.site-header__bottom-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.site-header__logo {
+  margin-top: auto;
+
+}
+
+.site-header__bottom {
+  background-image: url('../img/bgimage-hdr.svg');
+  background-position: center;
+  height: 61px;
+  max-width: 100%;
+}
+
+
+
+.site-header__top {
+  background-color: #F9F8F8;
+}
+
+.site-header__bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.site-header__bottom-item+.site-header__bottom-item {
+  display: inline-block;
+  margin-left: 55px;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.site-header__button {
+  background-repeat: no-repeat;
+  background-image: url('../img/header__menu.svg');
+  width: 21px;
+  height: 21px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (max-width:1150px) {
+  .site-header__logo-link {
+    max-width: 120px;
+  }
+
+  .site-header__button{
+    display: inline-block;
+  }
+
+  .site-header__bottom-box {
+    display: none;
+  }
+
+  .site-header__bottom{
+    justify-content: space-between;
+  }
+
+  .site-header__top-item{
+    display: none;
+  }
+
+  
+
+}

@@ -8,31 +8,52 @@ html {
 *::after {
   box-sizing: inherit;
 }
-body{
+
+body {
+  margin: 0;
+  background-color: #F9F8F8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-  margin: 0;
-}
-ul,ol{
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-a{
+
+a {
   display: inline-block;
   text-decoration: none;
 }
-img{
+
+img {
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
-.container{
-  max-width: 1349px;
+
+.container {
+  max-width: 1389px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }

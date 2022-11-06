@@ -499,11 +499,15 @@ body {
   display: none;
 }
 
-.site-header__top-link-tel:hover, .site-header__top-link:hover, .site-header__top-day-link:hover {
+.site-header__top-link-tel:hover,
+.site-header__top-link:hover,
+.site-header__top-day-link:hover {
   color: #FFBD54;
 }
 
-.site-header__top-link-tel:active, .site-header__top-link:active, .site-header__top-day-link:active {
+.site-header__top-link-tel:active,
+.site-header__top-link:active,
+.site-header__top-day-link:active {
   color: #333333;
   opacity: 0.6;
 }
@@ -514,6 +518,33 @@ body {
 
 .site-header__bottom-text:active {
   opacity: 0.6;
+}
+
+.site-header__link__mobile {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.site-header__container {
+  position: relative;
+}
+
+.site-header__menu-box-mobile {
+  background-color: #fff;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+  right: 10%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 500000;
+  display: none;
 }
 
 @media only screen and (max-width: 1150px) {

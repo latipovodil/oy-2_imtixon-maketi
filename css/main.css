@@ -135,11 +135,21 @@ html {
 *::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 body {
   margin: 0;
   background-color: #F9F8F8;
+}
+
+a:hover {
+  color: #FFBD54;
+}
+
+a:active {
+  opacity: 0.6;
 }
 
 h1,
@@ -489,6 +499,23 @@ body {
   display: none;
 }
 
+.site-header__top-link-tel:hover, .site-header__top-link:hover, .site-header__top-day-link:hover {
+  color: #FFBD54;
+}
+
+.site-header__top-link-tel:active, .site-header__top-link:active, .site-header__top-day-link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.site-header__bottom-text:hover {
+  border-bottom: 2px solid #F4FFAD;
+}
+
+.site-header__bottom-text:active {
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 1150px) {
   .site-header__logo-link {
     max-width: 120px;
@@ -579,6 +606,16 @@ body {
   position: absolute;
   top: 50%;
   right: 0%;
+}
+
+.hero__link:hover {
+  color: #333333;
+  background: #FFBD54;
+  border-radius: 3px;
+}
+
+.hero__link:active {
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 1172px) {
@@ -765,6 +802,14 @@ body {
   display: none;
 }
 
+.serves__list:hover {
+  opacity: 0.8;
+}
+
+.serves__list:active {
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 1320px) {
   .serves__box {
     display: none;
@@ -791,6 +836,15 @@ body {
   font-size: 48px;
   line-height: 20px;
   color: #FFFFFF;
+}
+
+.subscription__button:hover {
+  background: #FFBD54;
+  color: #333333;
+}
+
+.subscription__button:active {
+  opacity: 0.6;
 }
 
 .subscription__container {
@@ -1083,6 +1137,14 @@ body {
   max-width: 462px;
 }
 
+.map__button:hover {
+  opacity: 0.8;
+}
+
+.map__button:active {
+  opacity: 0.6;
+}
+
 .map__right-page {
   background-image: url("../img/decoration1.png"), url("../img/decoration2.png"), url("../img/decoration3.png"), url("../img/decoration3.png"), url("../../img/dicoration5.png");
   background-repeat: no-repeat;
@@ -1162,6 +1224,9 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 
 .footer__time-link {
@@ -1237,4 +1302,13 @@ body {
   line-height: 18px;
   text-align: right;
   color: #5C5C5C;
+  margin-top: 20px;
+}
+
+.footer__menu-link:hover, .footer__time-link:hover, .foter__location-link:hover, .footer__tel-link:hover {
+  color: #FFBD54;
+}
+
+.footer__menu-link:active, .footer__time-link:active, .foter__location-link:active, .footer__tel-link:active {
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */

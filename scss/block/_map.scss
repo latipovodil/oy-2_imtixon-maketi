@@ -58,72 +58,81 @@
   color: #FFFFFF;
 }
 
-.map__img-box{
+.map__img-box {
   max-width: 400px;
 }
 
-.map__right-page{
+.map__right-page {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.map__iframe{
+.map__iframe {
   max-width: 462px;
 }
 
-.map__right-page{
-  background-image: url('../img/decoration1.png') , url('../img/decoration2.png') , url('../img/decoration3.png') , url('../img/decoration3.png') , url('../../img/dicoration5.png');
-  background-repeat: no-repeat;
-  background-position: right center , left top , right top , right bottom , left center;
+.map__button:hover {
+  opacity: 0.8;
 }
 
-@media only screen and (max-width:1180px){
-  .map__container{
+.map__button:active {
+  opacity: 0.6;
+}
+
+.map__right-page {
+  background-image: url('../img/decoration1.png'), url('../img/decoration2.png'), url('../img/decoration3.png'), url('../img/decoration3.png'), url('../../img/dicoration5.png');
+  background-repeat: no-repeat;
+  background-position: right center, left top, right top, right bottom, left center;
+}
+
+@media only screen and (max-width:1180px) {
+  .map__container {
     flex-direction: column;
   }
 
 
-  .map__iframe{
+  .map__iframe {
     max-width: 100%;
   }
 }
 
-@media only screen and (max-width:800px){
-  .map__img-box{
+@media only screen and (max-width:800px) {
+  .map__img-box {
     display: none;
   }
 
-  .map__right-page{
+  .map__right-page {
     padding: 20px;
     text-align: center;
 
   }
 
-  .map__all-text{
+  .map__all-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .map__button{
+
+  .map__button {
     margin: auto;
   }
 }
 
-@media only screen and (max-width:450px){
-  .map__textarea{
+@media only screen and (max-width:450px) {
+  .map__textarea {
     width: 223px;
     height: 100px;
     margin-bottom: 20px;
   }
 
-.map__input{
-  width: 223px;
-}
+  .map__input {
+    width: 223px;
+  }
 
-.map__button {
-  padding: 5px 15px;
-}
+  .map__button {
+    padding: 5px 15px;
+  }
 
 }

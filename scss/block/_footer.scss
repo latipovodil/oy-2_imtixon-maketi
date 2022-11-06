@@ -18,6 +18,8 @@
 .footer__main {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 
@@ -98,4 +100,13 @@
   line-height: 18px;
   text-align: right;
   color: #5C5C5C;
+  margin-top: 20px;
+}
+
+.footer__menu-link:hover , .footer__time-link:hover , .foter__location-link:hover , .footer__tel-link:hover{
+  color: #FFBD54;
+}
+
+.footer__menu-link:active  , .footer__time-link:active , .foter__location-link:active , .footer__tel-link:active{
+  opacity: 0.6;
 }

@@ -12,6 +12,15 @@
   color: #FFFFFF;
 }
 
+.subscription__button:hover{
+  background: #FFBD54;
+  color: #333333;
+}
+
+.subscription__button:active{
+  opacity: 0.6;
+}
+
 .subscription__container {
   padding: 90px 0 88px 287px;
 }

@@ -53,37 +53,47 @@
 
 
 
-.hero__img-parrot{
+.hero__img-parrot {
   max-width: 300px;
   position: absolute;
   top: 50%;
   right: 0%;
 }
 
-@media only screen and (max-width:1172px){
-  .hero__img{
+.hero__link:hover {
+  color: #333333;
+  background: #FFBD54;
+  border-radius: 3px;
+}
+
+.hero__link:active {
+  opacity: 0.6;
+}
+
+@media only screen and (max-width:1172px) {
+  .hero__img {
     display: none;
   }
 
-  .hero__container{
+  .hero__container {
     justify-content: center;
     text-align: center;
   }
 
-  .hero{
+  .hero {
     margin-top: 111px;
   }
 }
 
-@media only screen and (max-width:630px){
-  .hero__img-parrot{
+@media only screen and (max-width:630px) {
+  .hero__img-parrot {
     display: none;
   }
 }
 
 
-@media only screen and (max-width:402px){
-  .hero__container{
+@media only screen and (max-width:402px) {
+  .hero__container {
     background-image: none;
   }
 
@@ -95,7 +105,7 @@
     font-size: 12px;
   }
 
-.hero__link{
-  padding: 10px 28px;
-}
+  .hero__link {
+    padding: 10px 28px;
+  }
 }

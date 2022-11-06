@@ -7,11 +7,20 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  transition-duration: 0.2s;
 }
 
 body {
   margin: 0;
   background-color: #F9F8F8;
+}
+
+a:hover {
+  color: #FFBD54;
+}
+
+a:active{
+  opacity: 0.6;
 }
 
 h1,

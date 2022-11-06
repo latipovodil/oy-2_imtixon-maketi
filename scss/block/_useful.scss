@@ -1,0 +1,103 @@
+.useful__container {
+  margin-top: 100px;
+}
+
+.useful__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+.useful__img-box {
+  max-width: 305px;
+}
+
+.useful__time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  margin-left: 220px;
+  margin-top: 21px;
+  margin-bottom: 4px;
+}
+
+.useful__list-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  max-width: 182px;
+  margin-bottom: 10px;
+}
+
+.useful__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  max-width: 260px;
+}
+
+.useful__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin-top: 37px;
+}
+
+.useful__link::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../img/dog-pet.svg');
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.useful__all-text {
+  padding: 25px;
+}
+
+.useful__item {
+  background: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+  max-width: 305px;
+}
+
+.useful__item2 {
+  display: flex;
+  max-width: 640px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.useful__box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.useful__link2{
+  margin-top: 125px;
+}
+
+.useful__item{
+  margin-top: 20px;
+}
+
+
+.useful{
+  margin-bottom: 120px;
+}

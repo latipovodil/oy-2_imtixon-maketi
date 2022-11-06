@@ -1,0 +1,101 @@
+.hero {
+  margin-top: 238px;
+}
+
+.hero__img-box {
+  max-width: 600px;
+  margin-top: 60px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.hero__title-span {
+  color: #78C0DE;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  max-width: 495px;
+  margin-top: 29px;
+  margin-bottom: 38px;
+}
+
+.hero__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  padding: 15px 48px;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__container {
+  background-repeat: no-repeat;
+  background-image: url('../img/dog.svg');
+  background-position: left center;
+  position: relative;
+
+}
+
+
+
+.hero__img-parrot{
+  max-width: 300px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+
+@media only screen and (max-width:1172px){
+  .hero__img{
+    display: none;
+  }
+
+  .hero__container{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero{
+    margin-top: 111px;
+  }
+}
+
+@media only screen and (max-width:630px){
+  .hero__img-parrot{
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width:402px){
+  .hero__container{
+    background-image: none;
+  }
+
+  .hero__title {
+    font-size: 37px;
+  }
+
+  .hero__text {
+    font-size: 12px;
+  }
+
+.hero__link{
+  padding: 10px 28px;
+}
+}
